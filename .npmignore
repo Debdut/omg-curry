@@ -1,0 +1,12 @@
+.travis.yml
+src
+test
+.gitignore
+**/.DS_Store
+**/.vscode
+*.config.js
+.babelrc
+examples
+scripts
+data
+assets

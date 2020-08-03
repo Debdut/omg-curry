@@ -1,0 +1,36 @@
+{
+  "name": "omg-curry",
+  "version": "0.0.0",
+  "description": "Curry All Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debdut/omg-curry.git"
+  },
+  "keywords": [
+    "curry",
+    "functional",
+    "fp",
+    "js",
+    "infinite",
+    "functional-programming"
+  ],
+  "author": "Debdut Karmakar <iawaiponly@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Debdut/omg-curry/issues"
+  },
+  "homepage": "https://github.com/Debdut/omg-curry#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "mocha": "^8.1.0",
+    "rollup": "^2.23.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
