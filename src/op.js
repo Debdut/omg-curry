@@ -1,16 +1,41 @@
 function op_sequential (operator, count) {
-  let index = 1
-  return function next (a) {
-    if (index < count) {
-      index++
-      return function (b) {
-        if (b) {
-          return next (operator(a, b, index))
-        }
-        return a
+  function next (a, index) {
+    return function (...b) {
+      let sum = a
+
+      if (b.length === 0) {
+        return sum
       }
+
+      for (; (index < count) && b.length > 0; index++) {
+        sum = operator(sum, b.shift(), index)
+      }
+
+      if (index < count) {
+        return next(sum, index)
+      }
+
+      return sum
     }
-    return a
+  }
+
+  return function (...a) {
+    if (a.length === 0) {
+      return
+    }
+    
+    let sum = a.shift()
+    let index = 1
+
+    for (; (index < count) && a.length > 0; index++) {
+      sum = operator(sum, a.shift(), index)
+    }
+
+    if (index < count) {
+      return next(sum, index)
+    }
+
+    return sum
   }
 }
 
