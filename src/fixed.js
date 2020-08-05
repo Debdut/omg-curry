@@ -1,14 +1,12 @@
 function fixed (f) {
-  let args = []
-  return function next (a) {
-    args.push(a)
-    if (args.length < f.length) {
-      return function (b) {
-        return next(b)
+  return function next (...a) {
+    if (a.length < f.length) {
+      return function (...b) {
+        return next(...a, ...b)
       }
     }
-    return f(...args)
+    return f(...a)
   }
 }
 
-module.exports = fixed
+export default fixed

@@ -37,4 +37,4 @@ function op (operator, count = Infinity, lazy = false) {
   return op_sequential(operator, count)
 }
 
-module.exports = op
+export default op

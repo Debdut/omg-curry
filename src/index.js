@@ -1,4 +1,4 @@
 import op from './op'
-import fixed from './from'
+import fixed from './fixed'
 
-module.exports = { op, fixed }
+export default { op, fixed }
