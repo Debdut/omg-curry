@@ -40,13 +40,11 @@ function op_sequential (operator, count) {
 }
 
 function op_lazy (operator, count) {
-  let index = 1
   return function next (...a) {
-    if (index < count) {
-      index++
-      return function (b) {
-        if (b) {
-          return next (...a, b)
+    if (a.length < count) {
+      return function (...b) {
+        if (b.length !== 0) {
+          return next (...a, ...b)
         }
         return a.reduce(operator)
       }
