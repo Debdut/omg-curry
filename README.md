@@ -1,6 +1,10 @@
-# Omg Curry
+# omg-curry
+
+[![Generic badge](https://img.shields.io/badge/build-success-brightgreen.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/tests-100%25-brightgreen.svg)](https://shields.io/)
 
 > _Feature Complete Curry Library_
+
+![Logo](/assets/curry.svg)
 
 ## Features
 

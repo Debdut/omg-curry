@@ -10,3 +10,5 @@ examples
 scripts
 data
 assets
+.github
+azure-pipelines.yml
