@@ -4,7 +4,7 @@
 
 > _Feature Complete Curry Library_
 
-![Logo](/assets/curry.svg)
+![Logo](/assets/logo.png)
 
 ## Features
 
