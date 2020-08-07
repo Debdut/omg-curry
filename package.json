@@ -1,6 +1,6 @@
 {
   "name": "omg-curry",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Curry All Code",
   "main": "index.js",
   "scripts": {
