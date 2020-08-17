@@ -1,12 +1,12 @@
 function fixed (f) {
-  const me = this;
+  const me = this
   return function next (...a) {
     if (a.length < f.length) {
       return function (...b) {
-        return next(...a, ...b);
+        return next(...a, ...b)
       }
     }
-    return f.call(me, ...a);
+    return f.call(me, ...a)
   }
 }
 
