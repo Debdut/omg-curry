@@ -3,7 +3,7 @@
 [![Generic badge](https://img.shields.io/badge/build-success-brightgreen.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/tests-100%25-brightgreen.svg)](https://shields.io/) 
 
 [![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fshields.io)](https://ctt.ac/MabC3)
-[![Twitter](https://img.shields.io/twitter/follow/KarmakarDebdut?label=Follow)](https://ctt.ac/MabC3)
+[![Twitter](https://img.shields.io/twitter/follow/KarmakarDebdut?label=Follow)](https://twitter.com/KarmakarDebdut)
 
 > _Feature Complete Curry Library_
 
