@@ -91,7 +91,7 @@ const add4Fixed = curry.deCurry(add4Curry)
 
 ## WTF is Curry?
 
-A Curry takes arguments one by one unlike functions which takes all arguments at once.
+A Curry takes arguments one by one unlike functions which take all arguments at once.
 
 ```js
 // Function
